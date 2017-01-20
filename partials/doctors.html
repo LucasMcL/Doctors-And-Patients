@@ -1,0 +1,19 @@
+<div class="container">
+	<h1 class="center-align">Doctors</h1>
+  <table>
+    <thead>
+      <tr>
+        <th data-field="id">Name</th>
+        <th data-field="price">Specialty</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr ng-repeat="doctor in doctors">
+        <td><a href="#!/patients/{{doctor.doctor_id}}">{{doctor.first_name}} {{doctor.last_name}}</a></td>
+        <td>{{doctor.speciality}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

@@ -1,0 +1,78 @@
+{
+    "doctors": [
+        {
+            "first_name": "Johan",
+            "last_name": "Killigrew",
+            "speciality": "Euthenasia",
+            "doctor_id": "killigrew"
+        },
+        {
+            "first_name": "Scott",
+            "last_name": "Humphries",
+            "speciality": "Computer Surgery",
+            "doctor_id": "humphries"
+        },
+        {
+            "first_name": "Caitlin",
+            "last_name": "Stein",
+            "speciality": "Pediatrics",
+            "doctor_id": "stein"
+        }
+    ],
+    "patients": [
+        {
+            "first_name": "Margot",
+            "last_name": "Svenson",
+            "ailment": "Arthritis",
+            "doctor_id": "killigrew"
+        },
+        {
+            "first_name": "A",
+            "last_name": "Person",
+            "ailment": "Pain",
+            "doctor_id": "killigrew"
+        },
+        {
+            "first_name": "Mr.",
+            "last_name": "Smith",
+            "ailment": "Broken leg",
+            "doctor_id": "killigrew"
+        },
+        {
+            "first_name": "John",
+            "last_name": "Cena",
+            "ailment": "Sore throat",
+            "doctor_id": "humphries"
+        },
+        {
+            "first_name": "Donald",
+            "last_name": "Trump",
+            "ailment": "Ego",
+            "doctor_id": "humphries"
+        },
+        {
+            "first_name": "Yo",
+            "last_name": "Momma",
+            "ailment": "Diabetes",
+            "doctor_id": "humphries"
+        },
+        {
+            "first_name": "Some",
+            "last_name": "Person",
+            "ailment": "An ailment",
+            "doctor_id": "stein"
+        },
+        {
+            "first_name": "Abe",
+            "last_name": "Lincoln",
+            "ailment": "Bullet Wound",
+            "doctor_id": "stein"
+        },
+        {
+            "first_name": "Kim",
+            "last_name": "Kardashian",
+            "ailment": "Mental Retardation",
+            "doctor_id": "stein"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+<div class="container">
+	<h1 class="center-align">Patients</h1>
+  <table>
+    <thead>
+      <tr>
+        <th data-field="id">Name</th>
+        <th data-field="price">Ailment</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr ng-repeat="patient in patients | filter: {doctor_id: doctorId}">
+        <td>{{patient.first_name}} {{patient.last_name}}</td>
+        <td>{{patient.ailment}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <a class="right" href="#!/doctors">return to doctors</a>
+</div>
+
